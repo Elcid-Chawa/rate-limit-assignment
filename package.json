@@ -1,0 +1,16 @@
+{
+  "name": "bongalo",
+  "version": "1.0.0",
+  "description": "Rate Limiting Service for endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elcid Chawa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0"
+  }
+}
